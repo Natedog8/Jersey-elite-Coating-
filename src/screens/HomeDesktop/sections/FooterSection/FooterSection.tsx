@@ -19,7 +19,7 @@ export const FooterSection = (): JSX.Element => {
             <img
               className="w-[337px] h-[337px] aspect-[1] relative object-cover"
               alt="Company Logo"
-              src="https://c.animaapp.com/rCgVzQtu/img/image-54@2x.png"
+              src="https://c.animaapp.com/ZszZBpsA/img/image-54@2x.png"
             />
           </div>
 
@@ -32,8 +32,7 @@ export const FooterSection = (): JSX.Element => {
               <a
                 key={index}
                 href="#"
-                className="relative w-fit mt-[-1.00px] font-text-small-semi-bold font-[number:var(--text-small-semi-bold-font-weight)] text-[color:var(--color-schemes-color-scheme-1-text)] text-[length:var(--text-small-semi-bold-font-size)] tracking-[var(--text-small-semi-bold-letter-spacing)] leading-[var(--text-small-semi-bold-line-height)] whitespace-nowrap [font-style:var(--text-small-semi-bold-font-style)] hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                tabIndex={0}
+                className="relative w-fit mt-[-1.00px] font-text-small-semi-bold font-[number:var(--text-small-semi-bold-font-weight)] text-[color:var(--color-schemes-color-scheme-1-text)] text-[length:var(--text-small-semi-bold-font-size)] tracking-[var(--text-small-semi-bold-letter-spacing)] leading-[var(--text-small-semi-bold-line-height)] whitespace-nowrap [font-style:var(--text-small-semi-bold-font-style)] hover:opacity-80 transition-opacity duration-200"
               >
                 {link}
               </a>
@@ -61,8 +60,7 @@ export const FooterSection = (): JSX.Element => {
                 <a
                   key={index}
                   href="#"
-                  className="relative w-fit mt-[-1.00px] font-text-small-link font-[number:var(--text-small-link-font-weight)] text-[color:var(--color-schemes-color-scheme-1-text)] text-[length:var(--text-small-link-font-size)] tracking-[var(--text-small-link-letter-spacing)] leading-[var(--text-small-link-line-height)] underline whitespace-nowrap [font-style:var(--text-small-link-font-style)] hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                  tabIndex={0}
+                  className="relative w-fit mt-[-1.00px] font-text-small-link font-[number:var(--text-small-link-font-weight)] text-[color:var(--color-schemes-color-scheme-1-text)] text-[length:var(--text-small-link-font-size)] tracking-[var(--text-small-link-letter-spacing)] leading-[var(--text-small-link-line-height)] underline whitespace-nowrap [font-style:var(--text-small-link-font-style)] hover:opacity-80 transition-opacity duration-200"
                 >
                   {link}
                 </a>

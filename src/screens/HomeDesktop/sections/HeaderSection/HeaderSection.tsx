@@ -2,7 +2,7 @@ import React from "react";
 
 export const HeaderSection = (): JSX.Element => {
   return (
-    <header className="flex h-[486px] items-start justify-center gap-20 pt-[var(--spacing-sizing-section-padding-padding-section-large)] pr-[var(--spacing-sizing-page-padding-padding-global)] pb-[var(--spacing-sizing-section-padding-padding-section-large)] pl-[var(--spacing-sizing-page-padding-padding-global)] relative self-stretch w-full bg-[url(https://c.animaapp.com/rCgVzQtu/img/header---1--.svg)] bg-cover bg-[50%_50%] bg-[color:var(--primitives-color-white)]">
+    <header className="flex h-[486px] items-start justify-center gap-20 pt-[var(--spacing-sizing-section-padding-padding-section-large)] pr-[var(--spacing-sizing-page-padding-padding-global)] pb-[var(--spacing-sizing-section-padding-padding-section-large)] pl-[var(--spacing-sizing-page-padding-padding-global)] relative self-stretch w-full bg-[url(https://c.animaapp.com/ZszZBpsA/img/header---1--.svg)] bg-cover bg-[50%_50%] bg-[color:var(--primitives-color-white)]">
       <div className="relative flex-1 max-w-[var(--spacing-sizing-container-container-large)] grow h-[262px]">
         <div className="w-[764px] h-[262px]">
           <div className="h-[300px]">
