@@ -2,10 +2,9 @@
 
 import dynamic from 'next/dynamic';
 
-// Load your Anima screen on the client only (no SSR), so anything that needs
-// window/document/styled-jsx/client-only won't crash the build.
+// Use a RELATIVE import so we don't depend on tsconfig path aliases:
 const HomeDesktop = dynamic(
-  () => import('@/screens/HomeDesktop/HomeDesktop'),
+  () => import('../src/screens/HomeDesktop/HomeDesktop'),
   { ssr: false }
 );
 
