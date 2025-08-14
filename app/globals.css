@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-chathams-blue hover:bg-chathams-blue-dark text-white px-6 py-3 rounded-xl font-medium transition-all duration-200;
+  }
+  
+  .section-padding {
+    @apply py-20 px-8;
+  }
+  
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+}
