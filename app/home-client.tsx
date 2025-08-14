@@ -2,7 +2,7 @@
 
 import dynamic from 'next/dynamic';
 
-// Use a RELATIVE import so we don't depend on tsconfig path aliases:
+// Import relatively from app/ → ../src/… so it always resolves
 const HomeDesktop = dynamic(
   () => import('../src/screens/HomeDesktop/HomeDesktop'),
   { ssr: false }
