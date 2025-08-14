@@ -2,7 +2,7 @@
 
 import dynamic from 'next/dynamic';
 
-// Import the single composed page component, client-only
+// ✅ import the single composed page component
 const HomeDesktop = dynamic(
   () => import('../components/HomeDesktop/HomeDesktop'),
   { ssr: false }
