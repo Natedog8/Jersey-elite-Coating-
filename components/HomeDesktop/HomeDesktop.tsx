@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import { ClientFeedbackSection } from "./sections/ClientFeedbackSection/ClientFeedbackSection";
 import { ContactSection } from "./sections/ContactSection/ContactSection";
@@ -22,3 +23,5 @@ export const HomeDesktop = (): JSX.Element => {
     </div>
   );
 };
+
+export default HomeDesktop;   // <-- add this line
