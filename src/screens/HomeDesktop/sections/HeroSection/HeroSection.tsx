@@ -22,7 +22,7 @@ export const HeroSection = (): JSX.Element => {
                 <img
                   className="absolute w-[84px] h-10 top-0 left-0.5 aspect-[0.82] object-cover"
                   alt="Company logo"
-                  src="https://c.animaapp.com/ZszZBpsA/img/blue-logo@2x.png"
+                  src="https://c.animaapp.com/rCgVzQtu/img/blue-logo@2x.png"
                 />
               </div>
 
@@ -49,7 +49,7 @@ export const HeroSection = (): JSX.Element => {
                         <img
                           className="relative w-6 h-6"
                           alt="Expand menu"
-                          src="https://c.animaapp.com/ZszZBpsA/img/chevron-down.svg"
+                          src="https://c.animaapp.com/rCgVzQtu/img/chevron-down.svg"
                         />
                       </button>
                     ) : (

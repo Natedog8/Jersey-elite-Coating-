@@ -10,10 +10,7 @@ import { TestimonialSection } from "./sections/TestimonialSection/TestimonialSec
 
 export const HomeDesktop = (): JSX.Element => {
   return (
-    <div
-      className="flex flex-col items-start relative"
-      data-model-id="9203:61544"
-    >
+    <div className="flex flex-col items-start relative" data-model-id="9203:61544">
       <HeroSection />
       <HeaderSection />
       <ServicesSection />
