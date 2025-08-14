@@ -31,12 +31,10 @@ export default function Services() {
         backgroundImage: "url('https://c.animaapp.com/rCgVzQtu/img/layout---245--.svg')"
       }}
     >
-      {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-chathams-blue-light/95 to-chathams-blue/95"></div>
       
       <div className="relative section-padding">
         <div className="container-max">
-          {/* Header */}
           <div className="flex flex-col lg:flex-row items-start gap-20 mb-20">
             <div className="flex-1">
               <span className="text-white/80 uppercase tracking-wider font-semibold text-sm mb-6 block">
@@ -58,7 +56,6 @@ export default function Services() {
             </div>
           </div>
 
-          {/* Services Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
             {services.map((service) => (
               <div
@@ -102,7 +99,6 @@ export default function Services() {
             ))}
           </div>
 
-          {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <button className="glass-card px-8 py-4 text-white hover:bg-white/20 transition-all duration-200 hover:scale-105">
               Learn More

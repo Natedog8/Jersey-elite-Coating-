@@ -32,7 +32,6 @@ export default function Transform() {
   return (
     <section className="section-padding bg-gradient-to-br from-white via-gray-50 to-blue-50">
       <div className="container-max">
-        {/* Header */}
         <div className="text-center max-w-4xl mx-auto mb-20">
           <span className="text-chathams-blue uppercase tracking-wider font-semibold text-sm mb-6 block">
             Transform
@@ -46,7 +45,6 @@ export default function Transform() {
           </p>
         </div>
 
-        {/* Main Image Card */}
         <div className="max-w-5xl mx-auto">
           <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
             <div className="absolute inset-0 bg-gradient-to-br from-chathams-blue/5 to-transparent rounded-3xl"></div>
@@ -59,7 +57,6 @@ export default function Transform() {
               />
             </div>
 
-            {/* Features */}
             <div className="bg-gradient-to-r from-chathams-blue-lightest to-white px-8 py-6">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 {features.map((feature, index) => (

@@ -22,7 +22,6 @@ export default function Contact() {
     e.preventDefault()
     if (acceptTerms) {
       console.log('Form submitted:', formData)
-      // Handle form submission here
     }
   }
 
@@ -35,7 +34,6 @@ export default function Contact() {
   return (
     <section id="contact" className="section-padding bg-gradient-to-b from-white to-gray-50">
       <div className="container-max">
-        {/* Header */}
         <div className="text-center max-w-4xl mx-auto mb-20">
           <div className="w-16 h-1 bg-gradient-to-r from-chathams-blue to-chathams-blue-light rounded-full mx-auto mb-6"></div>
           <h2 className="font-gelasio text-4xl md:text-5xl lg:text-6xl font-normal text-gray-900 mb-6 leading-tight">
@@ -46,7 +44,6 @@ export default function Contact() {
           </p>
         </div>
 
-        {/* Form */}
         <div className="max-w-2xl mx-auto">
           <div className="bg-white rounded-3xl shadow-2xl border border-gray-100 overflow-hidden">
             <div className="p-12">
@@ -129,7 +126,6 @@ export default function Contact() {
               </form>
             </div>
 
-            {/* Benefits */}
             <div className="bg-gradient-to-r from-chathams-blue-lightest to-chathams-blue-lighter px-12 py-6">
               <div className="flex items-center justify-center gap-8 text-center">
                 {benefits.map((benefit, index) => (

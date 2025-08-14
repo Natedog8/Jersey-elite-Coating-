@@ -6,10 +6,8 @@ export default function Hero() {
         backgroundImage: "url('https://c.animaapp.com/rCgVzQtu/img/header---1--.svg')"
       }}
     >
-      {/* Overlay */}
       <div className="absolute inset-0 bg-chathams-blue/80"></div>
       
-      {/* Content */}
       <div className="relative z-10 container-max px-8 text-center text-white">
         <div className="max-w-4xl mx-auto">
           <h1 className="font-gelasio text-5xl md:text-6xl lg:text-7xl font-normal mb-6 leading-tight">

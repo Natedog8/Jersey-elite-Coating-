@@ -17,7 +17,6 @@ export default function Locations() {
   return (
     <section className="section-padding bg-gradient-to-br from-chathams-blue to-chathams-blue-dark">
       <div className="container-max">
-        {/* Header */}
         <div className="text-center max-w-4xl mx-auto mb-20">
           <span className="text-chathams-blue-light uppercase tracking-wider font-semibold text-sm mb-6 block">
             Coverage
@@ -30,7 +29,6 @@ export default function Locations() {
           </p>
         </div>
 
-        {/* Locations Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {locations.map((location) => (
             <div

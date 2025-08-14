@@ -15,7 +15,8 @@ const gelasio = Gelasio({
 
 export const metadata: Metadata = {
   title: 'Jersey Elite Coatings - Professional Epoxy Flooring Services',
-  description: 'Transform your space with professional epoxy flooring services in North Jersey.',
+  description: 'Transform your space with professional epoxy flooring services in North Jersey. Residential and commercial solutions with lifetime warranty.',
+  keywords: 'epoxy flooring, garage floors, basement coating, commercial flooring, North Jersey, Jersey Elite Coatings',
 }
 
 export default function RootLayout({

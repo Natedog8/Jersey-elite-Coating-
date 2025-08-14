@@ -16,7 +16,6 @@ export default function Navigation() {
     <nav className="bg-gray-50 border-b border-gray-200 sticky top-0 z-50">
       <div className="container-max">
         <div className="flex items-center justify-between h-18 px-4">
-          {/* Logo */}
           <div className="flex items-center">
             <img
               src="https://c.animaapp.com/rCgVzQtu/img/blue-logo@2x.png"
@@ -25,7 +24,6 @@ export default function Navigation() {
             />
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <a
@@ -38,7 +36,6 @@ export default function Navigation() {
             ))}
           </div>
 
-          {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <button className="btn-secondary">
               Get Started
@@ -48,7 +45,6 @@ export default function Navigation() {
             </button>
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -61,7 +57,6 @@ export default function Navigation() {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200">

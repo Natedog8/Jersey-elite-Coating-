@@ -17,7 +17,6 @@ export default function Footer() {
     <footer className="bg-white section-padding">
       <div className="container-max">
         <div className="max-w-2xl mx-auto text-center mb-20">
-          {/* Logo */}
           <div className="mb-8">
             <img
               src="https://c.animaapp.com/rCgVzQtu/img/image-54@2x.png"
@@ -26,7 +25,6 @@ export default function Footer() {
             />
           </div>
 
-          {/* Navigation */}
           <nav className="flex flex-wrap items-center justify-center gap-8 mb-20">
             {navigationLinks.map((link) => (
               <a
@@ -40,7 +38,6 @@ export default function Footer() {
           </nav>
         </div>
 
-        {/* Bottom Section */}
         <div className="border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-600 text-sm">
